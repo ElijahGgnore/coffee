@@ -1,7 +1,8 @@
 ui_file = 'main.ui'
 db_name = 'coffee.sqlite'
 query = """\
-SELECT variety,
+SELECT coffee.id,
+       variety,
        roasting.[roasting degree],
        bean_state.[bean state],
        "taste description",

@@ -11,16 +11,12 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Coffee viewer</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QTableView" name="coffee_table">
-      <property name="editTriggers">
-       <set>QAbstractItemView::NoEditTriggers</set>
-      </property>
-     </widget>
+     <widget class="QTableView" name="coffee_table"/>
     </item>
    </layout>
   </widget>
